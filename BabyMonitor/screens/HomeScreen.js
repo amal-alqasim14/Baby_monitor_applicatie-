@@ -14,7 +14,7 @@ export default function HomeScreen({ navigation }) {
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={[globalStyles.button, { backgroundColor: "#ffffffff" }]}
+        style={[globalStyles.button, { backgroundColor: "#393838ff" }]}
         onPress={() => navigation.navigate("Settings")}
       >
         <Text style={globalStyles.buttonText}>Settings</Text>
